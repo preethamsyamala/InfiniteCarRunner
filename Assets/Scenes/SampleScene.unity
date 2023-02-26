@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -153,15 +153,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 963194227}
-  roadTile: {fileID: 6053260480074548523, guid: 29e5e87fe2d904139a5cd0d1523000d0,
+  roadTile: {fileID: 6053260480074548523, guid: 7457e5772bd5428478fc28c7a0b32e8d,
     type: 3}
   sideTile: {fileID: 2450575166405325210, guid: 5e107a9aa4215704f84390d08df3507c,
     type: 3}
   roadParent: {fileID: 928110378}
   leftTileParent: {fileID: 2118769587}
   rightTileParent: {fileID: 701569197}
-  playerCar: {fileID: 8297050183502151128, guid: 038095d96c166cd4f909eefb5bcfe00e,
-    type: 3}
   tilesToSpawn: 10
   movingSpeed: 10
 --- !u!4 &256884352
@@ -346,7 +344,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -420,18 +417,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ebcbfd06551245689a83d83c7bff599, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2118769587
 GameObject:
   m_ObjectHideFlags: 0
