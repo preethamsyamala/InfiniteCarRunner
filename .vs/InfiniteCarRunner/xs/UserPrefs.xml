@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{94D067EB-9D7F-4602-D538-8403EBA16342}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.cs">
+    <Files>
+      <File FileName="Assets/Scripts/RoadGenerator.cs" Line="14" Column="29" />
+      <File FileName="Assets/Scripts/RoadTile.cs" Line="31" Column="2" />
+      <File FileName="Assets/Scripts/Player.cs" Line="24" Column="10" />
+      <File FileName="Assets/Scripts/FollowPlayer.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InfiniteCarRunner" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="472581c5-7a5a-487f-9126-a63fecad92d5" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
